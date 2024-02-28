@@ -1,5 +1,6 @@
 import tkinter as tk
 
+
 # Function to perform arithmetic operations
 def calculate():
     try:
@@ -24,6 +25,7 @@ def calculate():
     except ValueError:
         entry_result.delete(0, tk.END)
         entry_result.insert(tk.END, "Invalid input")
+
 
 # Create main application window
 app = tk.Tk()
